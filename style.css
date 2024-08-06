@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #333;
+    color: #ffffff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: center ;
+}
+
+main {
+    padding: 1em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+.fotos {
+    text-align: center;
+}
+
+.foto-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    justify-items: center;
+}
+
+.foto {
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.foto:hover {
+    transform: scale(1.1);
+}
